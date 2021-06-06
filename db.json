@@ -2,7 +2,7 @@
   "beers": [
     {
       "id": 1,
-      "first_name": "Sebastian",
+      "beer_name": "Mexican Lager",
       "last_name": "Eschweiler",
       "email": "sebastian@codingthesmartway.com"
     },
