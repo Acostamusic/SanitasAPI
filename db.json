@@ -2,13 +2,13 @@
   "beers": [
     {
       "id": 1,
-      "first_name": "Sebastian",
-      "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com"
+      "beer_name": "Mexican Lager",
+      "Calories": "Eschweiler",
+      "email": "beerme@codingthesmartway.com"
     },
     {
       "id": 2,
-      "first_name": "Steve",
+      "first_name": "beer",
       "last_name": "Palmer",
       "email": "steve@codingthesmartway.com"
     },
