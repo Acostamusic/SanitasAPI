@@ -8,14 +8,14 @@
     },
     {
       "id": 2,
-      "first_name": "beer",
-      "last_name": "Palmer",
+      "beer_name": "beer this",
+      "Calories": "Palmer",
       "email": "steve@codingthesmartway.com"
     },
     {
       "id": 3,
-      "first_name": "Ann",
-      "last_name": "Smith",
+      "beer_name": "Ann",
+      "Calories": "Smith",
       "email": "ann@codingthesmartway.com"
     }
   ]
