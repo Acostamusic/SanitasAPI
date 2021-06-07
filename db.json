@@ -1,19 +1,19 @@
 {
   "beers": [
     {
-      "id": 1,
+      "id": 0,
       "beer_name": "Mexican Lager",
       "Calories": "Eschweiler",
       "email": "beerme@codingthesmartway.com"
     },
     {
-      "id": 2,
+      "id": 1,
       "beer_name": "beer this",
       "Calories": "Palmer",
       "email": "steve@codingthesmartway.com"
     },
     {
-      "id": 3,
+      "id": 2,
       "beer_name": "Ann",
       "Calories": "Smith",
       "email": "ann@codingthesmartway.com"
