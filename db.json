@@ -28,10 +28,10 @@
       },
       {
         "id": 1,
-        "name": "Pulled Mooshie",
+        "name": "The Bandito Mexican Lager",
         "inventory": "Mooshies",
-        "abv": "www.veganburger.org",
-        "description": "Spicy vegan burger with jackfruit",
+        "abv": "4.9% ABV",
+        "description": "Our collab with McDevitt Taco Supply, this refreshing lager had roasted tortillas added for a hint of roasted corn. Crisp and perfectly balanced for summer fun!",
         "ingredients": [
           "jackfruit",
           "coleslaw",
@@ -50,10 +50,10 @@
       },
       {
         "id": 2,
-        "name": "Krabby Patty",
+        "name": "Passion Fruit Sour",
         "inventory": "Krusty Krab",
-        "abv": "https://twitter.com/SpongeBob",
-        "description": "The only people who don't like a Krabby Patty have never tasted one.",
+        "abv": "5% ABV",
+        "description": "Part of our rotating sour series. Made with all natural passion fruit puree. Bright and fruity, inviting passion fruit aroma. Perfect for any time of the year",
         "ingredients": [
           "bun",
           "patty",
