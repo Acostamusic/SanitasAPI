@@ -2,10 +2,10 @@
   "beers": [
       {
         "id": 0,
-        "name": "Tribute Burger",
+        "name": "IPA 3.0",
         "restaurant": "Honest Burgers",
-        "web": "www.honestburgers.co.uk",
-        "description": "A mouth-watering honest beef burger",
+        "abv": "7",
+        "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
         "ingredients": [
           "beef",
           "american cheese",
