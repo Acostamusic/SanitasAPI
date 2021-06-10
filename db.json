@@ -1,22 +1,741 @@
 {
   "beers": [
-    {
-      "id": 1,
-      "beer_name": "Mexican Lager",
-      "Calories": "Eschweiler",
-      "email": "beerme@codingthesmartway.com"
-    },
-    {
-      "id": 2,
-      "first_name": "beer",
-      "last_name": "Palmer",
-      "email": "steve@codingthesmartway.com"
-    },
-    {
-      "id": 3,
-      "first_name": "Ann",
-      "last_name": "Smith",
-      "email": "ann@codingthesmartway.com"
-    }
-  ]
+      {
+          "id": 0,
+          "name": "IPA 3.0",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "The Bandito Mexican Lager",
+          "description": "Our collab with McDevitt Taco Supply, this refreshing lager had roasted tortillas added for a hint of roasted corn. Crisp and perfectly balanced for summer fun!",
+          "abv": "4.9% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Passion Fruit Sour",
+          "description": "Part of our rotating sour series. Made with all natural passion fruit puree. Bright and fruity, inviting passion fruit aroma. Perfect for any time of the year!",
+          "abv": "5% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Cherry Saison",
+          "description": "Our classic saison gets a healthy dose of Balaton cherries from Michigan. These fruity friends add both tartness and sweetness, for a well balanced fruited farmhouse ale.",
+          "abv": "5.9% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Everyday Mountain Lager",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Prickly Pear",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Curry On My Wayward Bun",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "MEISTER ALLER KLASSEN",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Vegetarian Burger (Indian Style)",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Fat Santa",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Blondie",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Monster Burger",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Buffalo chicken burger",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Cheatday Burger",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "The Truffler (vegan)",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Aloette Buger",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "BBQ Burger",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Carroll's Cheese Burger",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Mojitto Burger",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Double Slab Burger",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Du Brown",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Melting Potes",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Big Fernand",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "PNY Burger",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "231 East",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Cajun Black Bean Burger",
+          "restaurant": "The Chicago Diner",
+          "web": "www.veggiediner.com",
+          "description": "a hearty veggie burger with a kick that goes great with sweet potato fries",
+          "ingredients": [
+            "spicy black bean veggie patty",
+            "sautéed onions",
+            "mushrooms",
+            "spinach",
+            "tomato",
+            "fried jalapeño",
+            "cheddar sauce",
+            "creole mustard"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "3411",
+              "line1": "N Halsted St",
+              "line2": "Chicago, Illinois",
+              "postcode": "60657",
+              "country": "USA"
+            },
+            {
+              "addressId": 1,
+              "number": "2333",
+              "line1": "N Milwaukee Ave",
+              "line2": "Chicago, Illinois",
+              "postcode": "60647",
+              "country": "USA"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Hatch Green Chile Bacon Burger",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "The Street Burgers and Coctail Bar Prague 1",
+          "description": "A balanced IPA with bright hop aromatics and a ripe pineapple, grapefruit, and grassy hop flavor. Amarillo, mosaic, and centennial hops.",
+          "abv": "7% ABV",
+          "inventory": "Out of Stock",
+          "ingredients": [
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA",
+            "NA"
+          ],
+          "addresses": [
+            {
+              "addressId": 0,
+              "number": "75",
+              "line1": "Venn Street",
+              "line2": "Clapham",
+              "postcode": "SW4 0BD",
+              "country": "United Kingdom"
+            }
+          ]
+        }
+      ]
 }
