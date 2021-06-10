@@ -1,6 +1,7 @@
 {
   "beers": [
-      {
+      [
+        {
           "id": 0,
           "name": "Tribute Burger",
           "restaurant": "Honest Burgers",
